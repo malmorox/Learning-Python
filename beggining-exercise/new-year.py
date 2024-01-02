@@ -11,7 +11,7 @@ def año2024(conocimiento = 0):
 
     for dia in range(1, 366):
 
-        print(f"Día (día) de 2024")
+        print(f"Día {dia} de 2024")
 
         print(random.choice(estado))
 
@@ -27,4 +27,5 @@ def año2024(conocimiento = 0):
 
     print(f"Eres un {conocimiento}% mejor")
     print("FELIZ 2024, DEVELOPERS! HB")
-    año2024(conocimiento)
+
+año2024()

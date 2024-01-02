@@ -1,7 +1,7 @@
 import random
 import time
 
-def año2023(conocimiento = 0):
+def año2024(conocimiento = 0):
 
     rendirse = False
     estado = ["Qué bueno/a soy! O",
@@ -11,7 +11,7 @@ def año2023(conocimiento = 0):
 
     for día in range(1, 366):
 
-        print(f"Día (día) de 2023")
+        print(f"Día (día) de 2024")
 
         print(random.choice(estado))
 
@@ -19,12 +19,12 @@ def año2023(conocimiento = 0):
 
         if rendirse: raise Exception()
 
-        if día = 365: print("No subir a producción")
+        if día == 365: print("No subir a producción")
 
-        time.sleep(60 * 60 x 24)
+        time.sleep(60 * 60 * 24)
 
         conocimiento += 1
 
-    print(f"Eres un fconocimiento)% mejor le”)
+    print(f"Eres un fconocimiento)% mejor")
     print("FELIZ 2024, DEVELOPERS! HB")
     año2024(conocimiento)
